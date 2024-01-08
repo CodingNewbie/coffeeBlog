@@ -9,7 +9,8 @@ body{
 }
 
 main{
-    margin: 0% 10%
+    width: 80vh;
+    margin: 0 auto;
 }
 
 p{
@@ -29,13 +30,13 @@ button{
     letter-spacing: 1px;
 }
 
+h1, h2, h3{
+    padding: 15px;
+}
+
 h1{
     font-size: 50px;
     font-family: 'Trebuchet MS';
-}
-
-h2, h3{
-    padding: 15px 15px;
 }
 
 footer{
@@ -68,6 +69,11 @@ a{
 .more-info-button{
     background-color: #8f471f;
     color: white;
+}
+
+.blog-title{
+    font-size: 40px;
+    padding-top: 30px;
 }
 
 /*header*/
