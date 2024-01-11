@@ -4,34 +4,28 @@
     padding: 0;
 }
 
+header{
+    background-image: url(./img/banner.jpg);
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
+
 body{
     font-family: arial;
 }
 
-main{
-    width: 80vh;
-    margin: 0 auto;
-}
-
 p{
     line-height: 2;
+    padding: 10px 0px;
 }
 
 img{
     max-width: 100%;
-    margin-top: 30px;
-}
-
-button{
-    text-transform: uppercase;
-    font-size: 14px;
-    border: none;
-    padding: 10px 20px;
-    letter-spacing: 1px;
 }
 
 h1, h2, h3{
-    padding: 15px;
+    padding: 15px 0px;
 }
 
 h1{
@@ -40,19 +34,17 @@ h1{
 }
 
 footer{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
     background-color: black;
     color: white;
-    padding-bottom: 50px;
+    padding: 10px;
     font-family: 'Trebuchet MS';
-}
-
-ul{
-    width: auto;
 }
 
 li{
     display: inline-block;
-    padding: 0px 10px;
 }
 
 a{
@@ -60,44 +52,92 @@ a{
     color: white;
 }
 
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    margin-right: 20px;
+}
+
 /*utilities*/
-.read-more-button{
-    background-color: black;
-    color: white;
+
+.container{
+    width: 70%;
+    margin: 0 auto;
 }
 
-.more-info-button{
-    background-color: #8f471f;
-    color: white;
+.main-flex{
+    display: flex;
+    justify-content: center;
 }
 
-.blog-title{
-    font-size: 40px;
-    padding-top: 30px;
+.about-us-main{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+}
+
+.about-us-h1{
+    text-align: center;
+}
+
+.centered-text{
+    text-align: center;
 }
 
 /*header*/
-.site-init{
-    background-image: url(./img/banner.jpg);
-    background-size: cover;
-    height: 300px;
-    text-align: center;
-    color: white;
+.top-header-container{
     display: flex;
-    flex-direction: column;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.bottom-header-container{
+    display: flex;
     justify-content: center;
     align-items: center;
+    height: 400px;
+}
+
+/*main*/
+main{
+    width: 60%;
+    margin-right: 20px;
+}
+
+/*blog*/
+.blog-container{
+    margin-top: 20px;
+}
+
+.blog-container h3{
+    margin-top: 20px;
+}
+
+.blog-container p{
+    margin-top: 20px;
+}
+
+.blog-container .btn{
+    background-color: black;
+}
+
+.blog-sidebar .btn{
+    background-color: #8f471f;
 }
 
 /*footer*/
-.footer-title{
-    text-align: center;
-}
-
-.footer-links{
-    text-align: center;
-}
-
-footer h2{
-    font-size: 35px;
+footer a{
+    padding: 0px 10px;
 }
